@@ -34,6 +34,7 @@ class Solution:
 
 
 if __name__=='__main__':
-    nums = [2,3,1,1,4]
+    # nums = [2,3,1,1,4]
+    nums = [2,3,1,2,4, 2, 3]
     step = Solution().jump(nums = nums)
     print(step)
